@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login With Valid Data",
+        "description": "",
+        "id": "login;login-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12073257618,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in Home page",
+            "match": {
+              "location": "LoginWithValid.i_am_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3592194367,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Select on Login Link",
+            "match": {
+              "location": "LoginWithValid.i_Select_on_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51724794,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should see the login page",
+            "match": {
+              "location": "LoginWithValid.i_should_see_the_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 582960883,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter the valid email address and valid password",
+            "match": {
+              "location": "LoginWithValid.i_enter_the_valid_email_address_and_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104085938,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click login buuton",
+            "match": {
+              "location": "LoginWithValid.i_click_login_buuton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2624875286,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i should see the welcome page",
+            "match": {
+              "location": "LoginWithValid.i_should_see_the_welcome_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
